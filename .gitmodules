@@ -1,0 +1,3 @@
+[submodule "rtx_api"]
+	path = rtx_api
+	url = https://github.com/rpehkone/Chat-With-RTX-python-api
