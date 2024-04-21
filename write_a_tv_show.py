@@ -45,7 +45,7 @@ def write_a_tv_show(show_title, show_description):
     end_time_unix_ms = int(time.time() * 1000)
     formatted_time = str(datetime.timedelta(seconds=int(end_time_unix_ms - start_time_unix_ms) / 1000))[:-7]
     time_str = "# Chat with RTX Mistral took " + formatted_time + " to write this tv show"
-    res = ["# Inteded as parody and/or educational on generative llms"] + res
+    res = ["# Intended as parody and/or educational on generative llms"] + res
     res = [time_str] + res
     res.append(time_str)
     if not os.path.exists("tv_shows"):
