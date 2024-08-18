@@ -1,4 +1,4 @@
-import rtx_api.rtx_api_3_5 as rtx_api
+import rtx_api.rtx_api_july_2024 as rtx_api
 import re
 
 def boolean_question(prompt):
@@ -52,8 +52,11 @@ def generate_list(prompt):
 
     return res
 
+# hope you dont get supply chain attacked
+# setup a vm
 def generate_code(prompt):
     # return ''' this '''
+    # exec(code)
     pass
 
 def improve_sentence_grammar(prompt):
