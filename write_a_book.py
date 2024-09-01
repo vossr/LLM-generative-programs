@@ -31,6 +31,7 @@ def write_a_book(book_title):
     chapters = python_interface.generate_list("Write list of chapters for book about " + book_title)
     # chapters = chapters[:2]
     res.append("# " + book_title)
+    print(chapters)
     for c in chapters:
         res.append("## " + c)
         sections = python_interface.generate_list("You are writing a book about: " + book_title + ". Write list of sections for book chapter about " + c)
@@ -62,16 +63,23 @@ if __name__ == '__main__':
     write_a_book("CIA tactics")
     write_a_book("How to fly a 747")
     write_a_book("Modern radio link stack")
+    write_a_book("RF modulation techniques and protocols explained")
     write_a_book("Fall of the Roman Empire")
     write_a_book("Human brain structure")
     write_a_book("Social group dynamics")
 
+    write_a_book("Developing a nuclear reactor")
+    write_a_book("Developing a nuclear power plant")
     write_a_book("Developing a scramjet (supersonic combustion ramjet) engine")
     write_a_book("Developing an external pulsed plasma propulsion engine")
     write_a_book("Developing a liquid-fuel rocket engine")
     write_a_book("Developing a super heavy-lift launch vehicle")
+    write_a_book("Developing a rocket engine nozzle")
+    write_a_book("Isentrepic flow in liquid fuel rocket engine design")
+    write_a_book("Supersonic gas dynamics")
     write_a_book("Orbital mechanics")
     write_a_book("Spacecraft atmospheric re-entry")
+    write_a_book("Thermodynamics")
 
     write_a_book("How to become a master yapper")
     write_a_book("How to write a book")
