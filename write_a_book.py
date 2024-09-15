@@ -46,8 +46,8 @@ def write_a_book(book_title):
 
     end_time_unix_ms = int(time.time() * 1000)
     formatted_time = str(datetime.timedelta(seconds=int(end_time_unix_ms - start_time_unix_ms) / 1000))[:-7]
-    time_str = "# Chat with RTX Llama 2 took " + formatted_time + " to write this book"
-    # time_str = "# Chat with RTX Mistral took " + formatted_time + " to write this book"
+    # time_str = "# Chat with RTX Llama 2 took " + formatted_time + " to write this book"
+    time_str = "# Chat with RTX Mistral took " + formatted_time + " to write this book"
     res = ["# Intended as parody and/or educational on generative llms"] + res
     res = [time_str] + res
     res.append(time_str)
@@ -59,7 +59,11 @@ def write_a_book(book_title):
         file.write(book_str)
 
 if __name__ == '__main__':
-    write_a_book("C programming language")
+    write_a_book("Programming language C")
+    write_a_book("Programming language C++")
+    write_a_book("Programming language Python3")
+    write_a_book("Programming language Java")
+    write_a_book("Programming language JavaScript")
     write_a_book("CIA tactics")
     write_a_book("How to fly a 747")
     write_a_book("Modern radio link stack")
