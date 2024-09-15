@@ -34,6 +34,24 @@ res.append([' '])
 res.append([time_str])
 res.insert(1, [time_str])
 
-with open('jurisdictional_table/jurisdictional_table.csv', 'w', newline='') as file:
+res = [[1, 2], [3, 4, 5], [6]]
+def longest_row(matrix):
+    max_length = 0
+    for row in matrix:
+        if len(row) > max_length:
+            max_length = len(row)
+    return max_length
+lr = longest_row(res)
+
+def pad_subarrays(matrix, n):
+    for i in range(len(matrix)):
+        if len(matrix[i]) < n:
+            additional_length = n - len(matrix[i])
+            matrix[i].extend([' '] * additional_length)
+    return matrix
+res = pad_subarrays(res, lr)
+
+file_path = 'jurisdictional_table/jurisdictional_table.csv'
+with open(file_path, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(res)
