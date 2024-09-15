@@ -34,7 +34,6 @@ res.append([' '])
 res.append([time_str])
 res.insert(1, [time_str])
 
-res = [[1, 2], [3, 4, 5], [6]]
 def longest_row(matrix):
     max_length = 0
     for row in matrix:
