@@ -1,4 +1,4 @@
-import rtx_api.rtx_api_july_2024 as rtx_api
+import chat_with_rtx_api.rtx_api_july_2024 as rtx_api
 import re
 
 def boolean_question(prompt):

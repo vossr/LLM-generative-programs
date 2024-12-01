@@ -1,4 +1,4 @@
-import rtx_api.rtx_api_july_2024 as rtx_api
+import chat_with_rtx_api.rtx_api_july_2024 as rtx_api
 import python_interface
 import datetime
 import time
@@ -64,13 +64,10 @@ if __name__ == '__main__':
     write_a_book("Programming language Python3")
     write_a_book("Programming language Java")
     write_a_book("Programming language JavaScript")
-    write_a_book("CIA tactics")
     write_a_book("How to fly a 747")
     write_a_book("Modern radio link stack")
     write_a_book("RF modulation techniques and protocols explained")
     write_a_book("Fall of the Roman Empire")
-    write_a_book("Human brain structure")
-    write_a_book("Social group dynamics")
 
     write_a_book("Developing a nuclear reactor")
     write_a_book("Developing a nuclear power plant")

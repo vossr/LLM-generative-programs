@@ -1,4 +1,4 @@
-import rtx_api.rtx_api_3_5 as rtx_api
+import chat_with_rtx_api.rtx_api_3_5 as rtx_api
 import python_interface
 
 def generate_company_descrption(company_name):
