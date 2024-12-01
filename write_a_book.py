@@ -67,6 +67,7 @@ if __name__ == '__main__':
     write_a_book("How to fly a 747")
     write_a_book("Modern radio link stack")
     write_a_book("RF modulation techniques and protocols explained")
+    write_a_book("RADAR System Design")
     write_a_book("Fall of the Roman Empire")
 
     write_a_book("Developing a nuclear reactor")
@@ -81,6 +82,8 @@ if __name__ == '__main__':
     write_a_book("Orbital mechanics")
     write_a_book("Spacecraft atmospheric re-entry")
     write_a_book("Thermodynamics")
+    write_a_book("Lattice quantum field theory")
+    write_a_book("Free-space optical communication")
 
     write_a_book("How to become a master yapper")
     write_a_book("How to write a book")
